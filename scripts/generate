@@ -1,0 +1,19 @@
+#!/bin/bash
+
+set -euo pipefail
+
+generate() {
+  local resources=(
+    # Datadog::Dashboards::Dashboard
+    # Datadog::Monitors::Monitor
+    # Datadog::Monitors::Downtime
+    # Datadog::IAM::User
+    Datadog::SLOs::SLO
+  )
+
+  for resource in "${resources[@]}"; do
+    pnpx cdk-import cfn -l typescript -o src "${resource}"
+  done
+}
+
+generate "$*"

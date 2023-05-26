@@ -1,0 +1,19 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    // compiler settings
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // output settings
+    "declaration": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "outDir": "dist",
+
+    // implicit types
+    "types": ["node", "jest"]
+  },
+  "include": ["src/**/*"],
+}

@@ -1,0 +1,15 @@
+# Ignore everything by default:
+*
+
+# Whitelist by file extension...
+!**/
+!*.ts
+!*.tsx
+!/.*.js
+
+# Override and explicitly ignore...
+**/cdk.out/
+**/node_modules/
+/coverage/
+*.d.ts
+**/metadata.json
