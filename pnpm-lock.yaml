@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 devDependencies:
+  '@aws-cdk/assertions':
+    specifier: 1.x
+    version: 1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)(@aws-cdk/core@1.202.0)(@aws-cdk/cx-api@1.202.0)(constructs@3.4.307)
   '@aws-cdk/core':
     specifier: 1.x && < 2.x
     version: 1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)(@aws-cdk/cx-api@1.202.0)(@aws-cdk/region-info@1.202.0)(constructs@3.4.307)
@@ -62,6 +65,23 @@ packages:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.18
     dev: true
+
+  /@aws-cdk/assertions@1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)(@aws-cdk/core@1.202.0)(@aws-cdk/cx-api@1.202.0)(constructs@3.4.307):
+    resolution: {integrity: sha512-c9eYaSfbzFhbVaAUguIIoSlmAqGWTHcE1UytOE6nP+RcmCrowBGJM6djjwORi5mbntBWj2+h7oQEAG2OhVrrew==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      '@aws-cdk/cloud-assembly-schema': 1.202.0
+      '@aws-cdk/core': 1.202.0
+      '@aws-cdk/cx-api': 1.202.0
+      constructs: ^3.3.69
+    dependencies:
+      '@aws-cdk/cloud-assembly-schema': 1.202.0
+      '@aws-cdk/core': 1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)(@aws-cdk/cx-api@1.202.0)(@aws-cdk/region-info@1.202.0)(constructs@3.4.307)
+      '@aws-cdk/cx-api': 1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)
+      constructs: 3.4.307
+    dev: true
+    bundledDependencies:
+      - fs-extra
 
   /@aws-cdk/cloud-assembly-schema@1.202.0:
     resolution: {integrity: sha512-UFcxQcky31kFUu6GbWgaweOKEt9yAPy5ttGV/26Ue5BCGHVow6ivri3/4o9fpFEYLF5Brl+mGyhaH6Y4LkHYKw==}

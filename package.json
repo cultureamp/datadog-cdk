@@ -20,6 +20,7 @@
   "author": "Culture Amp SRE",
   "license": "MIT",
   "devDependencies": {
+    "@aws-cdk/assertions": "1.x",
     "@aws-cdk/core": "1.x && < 2.x",
     "@tsconfig/node16": "^1.0.4",
     "@types/jest": "^29.5.1",
