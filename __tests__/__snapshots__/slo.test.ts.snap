@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given an SLO construct When I supply default values Then the template synthesises correctly 1`] = `
+{
+  "Resources": {
+    "TestSlo": {
+      "Properties": {
+        "Name": "TestSlo",
+        "Thresholds": [
+          {
+            "Target": 100,
+            "TargetDisplay": "98.0",
+            "Timeframe": "7d",
+          },
+        ],
+        "Type": "metric",
+      },
+      "Type": "Datadog::SLOs::SLO",
+    },
+  },
+}
+`;
+
+exports[`Given an SLO construct When I supply optional values Then the template synthesises correctly 1`] = `
+{
+  "Resources": {
+    "TestSlo": {
+      "Properties": {
+        "Description": "A test SLO",
+        "Groups": [
+          "TestGroup",
+        ],
+        "MonitorIds": [
+          0,
+          1,
+        ],
+        "Name": "TestSlo",
+        "Query": {
+          "Denominator": "denominator query",
+          "Numerator": "numerator query",
+        },
+        "Tags": [
+          "asset:testasset",
+        ],
+        "Thresholds": [
+          {
+            "Target": 100,
+            "TargetDisplay": "98.0",
+            "Timeframe": "7d",
+          },
+        ],
+        "Type": "metric",
+      },
+      "Type": "Datadog::SLOs::SLO",
+    },
+  },
+}
+`;
