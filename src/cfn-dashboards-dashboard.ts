@@ -21,7 +21,7 @@ export interface CfnDashboardProps {
  * Converts an object of type 'CfnDashboardProps' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_CfnDashboardProps(
+function toJson_CfnDashboardProps(
   obj: CfnDashboardProps | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {

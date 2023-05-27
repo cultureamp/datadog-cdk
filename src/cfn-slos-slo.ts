@@ -66,7 +66,7 @@ export interface CfnSloProps {
  * Converts an object of type 'CfnSloProps' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_CfnSloProps(
+function toJson_CfnSloProps(
   obj: CfnSloProps | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {
@@ -113,9 +113,7 @@ export interface Query {
  * Converts an object of type 'Query' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_Query(
-  obj: Query | undefined
-): Record<string, any> | undefined {
+function toJson_Query(obj: Query | undefined): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
   }
@@ -175,7 +173,7 @@ export interface Threshold {
  * Converts an object of type 'Threshold' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_Threshold(
+function toJson_Threshold(
   obj: Threshold | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {

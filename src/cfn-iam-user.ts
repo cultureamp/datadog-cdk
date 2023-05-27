@@ -49,7 +49,7 @@ export interface CfnUserProps {
  * Converts an object of type 'CfnUserProps' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_CfnUserProps(
+function toJson_CfnUserProps(
   obj: CfnUserProps | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {
@@ -104,7 +104,7 @@ export interface CfnUserPropsDatadogCredentials {
  * Converts an object of type 'CfnUserPropsDatadogCredentials' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_CfnUserPropsDatadogCredentials(
+function toJson_CfnUserPropsDatadogCredentials(
   obj: CfnUserPropsDatadogCredentials | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {

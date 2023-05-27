@@ -82,7 +82,7 @@ export interface CfnMonitorProps {
  * Converts an object of type 'CfnMonitorProps' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_CfnMonitorProps(
+function toJson_CfnMonitorProps(
   obj: CfnMonitorProps | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {
@@ -138,7 +138,7 @@ export interface Creator {
  * Converts an object of type 'Creator' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_Creator(
+function toJson_Creator(
   obj: Creator | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {
@@ -313,7 +313,7 @@ export interface MonitorOptions {
  * Converts an object of type 'MonitorOptions' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_MonitorOptions(
+function toJson_MonitorOptions(
   obj: MonitorOptions | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {
@@ -434,7 +434,7 @@ export interface MonitorThresholds {
  * Converts an object of type 'MonitorThresholds' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_MonitorThresholds(
+function toJson_MonitorThresholds(
   obj: MonitorThresholds | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {
@@ -478,7 +478,7 @@ export interface MonitorThresholdWindows {
  * Converts an object of type 'MonitorThresholdWindows' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_MonitorThresholdWindows(
+function toJson_MonitorThresholdWindows(
   obj: MonitorThresholdWindows | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {

@@ -70,7 +70,7 @@ export interface CfnDowntimeProps {
  * Converts an object of type 'CfnDowntimeProps' to JSON representation.
  */
 /* eslint-disable max-len, quote-props */
-export function toJson_CfnDowntimeProps(
+function toJson_CfnDowntimeProps(
   obj: CfnDowntimeProps | undefined
 ): Record<string, any> | undefined {
   if (obj === undefined) {
