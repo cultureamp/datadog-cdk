@@ -4,6 +4,7 @@ module.exports = {
     es2021: true,
   },
   extends: ["standard-with-typescript", "prettier"],
+  plugins: ["sort-imports-es6-autofix"],
   rules: {
     "no-new": ["off"],
     "@typescript-eslint/explicit-function-return-type": ["off"],

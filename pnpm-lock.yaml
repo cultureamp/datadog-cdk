@@ -40,6 +40,9 @@ devDependencies:
   eslint-plugin-promise:
     specifier: ^6.0.0
     version: 6.1.1(eslint@8.41.0)
+  eslint-plugin-sort-imports-es6-autofix:
+    specifier: 0.6.0
+    version: 0.6.0(eslint@8.41.0)
   jest:
     specifier: ^29.5.0
     version: 29.5.0(@types/node@16.18.33)(ts-node@10.9.1)
@@ -79,6 +82,7 @@ packages:
       '@aws-cdk/core': 1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)(@aws-cdk/cx-api@1.202.0)(@aws-cdk/region-info@1.202.0)(constructs@3.4.307)
       '@aws-cdk/cx-api': 1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)
       constructs: 3.4.307
+      fs-extra: 9.1.0
     dev: true
     bundledDependencies:
       - fs-extra
@@ -1802,6 +1806,14 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
+    dependencies:
+      eslint: 8.41.0
+    dev: true
+
+  /eslint-plugin-sort-imports-es6-autofix@0.6.0(eslint@8.41.0):
+    resolution: {integrity: sha512-2NVaBGF9NN+727Fyq+jJYihdIeegjXeUUrZED9Q8FVB8MsV3YQEyXG96GVnXqWt0pmn7xfCZOZf3uKnIhBrfeQ==}
+    peerDependencies:
+      eslint: '>=7.7.0'
     dependencies:
       eslint: 8.41.0
     dev: true
