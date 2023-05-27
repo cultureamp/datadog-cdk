@@ -6,7 +6,7 @@
 !*.ts
 !*.tsx
 !/.*.js
-!*.json
+!package.json
 # Override and explicitly ignore...
 **/cdk.out/
 **/node_modules/
