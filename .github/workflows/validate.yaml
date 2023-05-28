@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        scripts: ["test", "build", "eslint", "prettier"]
+        scripts: ["test", "test-integration", "build", "eslint", "prettier"]
       # don't fail-fast: scripts are not related, so allow all failures to show up
       fail-fast: false
 
