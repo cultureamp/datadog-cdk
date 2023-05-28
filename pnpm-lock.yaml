@@ -7,6 +7,9 @@ devDependencies:
   '@aws-cdk/core':
     specifier: 1.x && < 2.x
     version: 1.202.0(@aws-cdk/cloud-assembly-schema@1.202.0)(@aws-cdk/cx-api@1.202.0)(@aws-cdk/region-info@1.202.0)(constructs@3.4.307)
+  '@aws-cdk/integ-runner':
+    specifier: 1.x
+    version: 1.202.0
   '@tsconfig/node16':
     specifier: ^1.0.4
     version: 1.0.4
@@ -129,6 +132,14 @@ packages:
     dev: true
     bundledDependencies:
       - semver
+
+  /@aws-cdk/integ-runner@1.202.0:
+    resolution: {integrity: sha512-eeJwhCg26/BVvcmpSjHJhZ/YCS4MiThW0u/X+YKQLK0XYakBqsV6tfddRvMmWzPeAKfvCswDjtRpmfoCn9ieUA==}
+    engines: {node: '>= 14.15.0'}
+    hasBin: true
+    dependencies:
+      aws-cdk: 1.202.0
+    dev: true
 
   /@aws-cdk/region-info@1.202.0:
     resolution: {integrity: sha512-DCdDdWQJILHRiGON95evibyj8zc+tt0318b2E3D0YWqMCfBQALQCNrdpoCBjuj+nAeeKQYV9lsMoXZ8ivQMaeg==}

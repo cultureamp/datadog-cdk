@@ -1,0 +1,27 @@
+{
+ "Resources": {
+  "TestSlo": {
+   "Type": "Datadog::SLOs::SLO",
+   "Properties": {
+    "Name": "cdk-integration-test-slo",
+    "Query": {
+     "Numerator": "count(v: v<0.1):trace.rack.request{env:test,service:datadog-cdk}",
+     "Denominator": "count:trace.rack.request{env:test,service:datadog-cdk}"
+    },
+    "Tags": [
+     "repo:datadog-cdk",
+     "env:test",
+     "type:cdk-integration-test"
+    ],
+    "Thresholds": [
+     {
+      "Target": 99.9,
+      "TargetDisplay": "99.0",
+      "Timeframe": "7d"
+     }
+    ],
+    "Type": "metric"
+   }
+  }
+ }
+}

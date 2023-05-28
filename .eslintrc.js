@@ -11,7 +11,11 @@ module.exports = {
   },
   overrides: [],
   parserOptions: {
-    project: ["tsconfig.json", "__tests__/tsconfig.json"],
+    project: [
+      "tsconfig.json",
+      "__tests__/tsconfig.json",
+      "__integration__/tsconfig.json",
+    ],
     ecmaVersion: "latest",
     sourceType: "module",
   },

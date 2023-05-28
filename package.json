@@ -14,7 +14,11 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
+    "clean": "tsc --build --clean && (rm __integration__/*.d.ts __integration__/*.js src/*.d.ts src/*.js || true)",
     "test": "jest",
+    "test-integration": "integ-runner --update-on-failed --parallel-regions us-west-2 --verbose --directory ./__integration__/",
+    "run-integration": "pnpm run -s clean && pnpm run -s build --project tsconfig.integ.json && pnpm run test-integration; pnpm run -s clean",
+    "integ": "integ-runner",
     "eslint": "eslint . --ext .ts,.tsx",
     "prettier": "prettier --check '**/*'",
     "lint": "pnpm run -s eslint && pnpm run -s prettier",
@@ -31,6 +35,7 @@
   "devDependencies": {
     "@aws-cdk/assertions": "1.x",
     "@aws-cdk/core": "1.x && < 2.x",
+    "@aws-cdk/integ-runner": "1.x",
     "@tsconfig/node16": "^1.0.4",
     "@types/jest": "^29.5.1",
     "@types/node": "16.x",
