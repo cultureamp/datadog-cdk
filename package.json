@@ -1,6 +1,6 @@
 {
   "name": "@cultureamp/datadog-cdk",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha2",
   "description": "CDK constructs for DataDog Cloudformation resources.",
   "packageManager": "pnpm@8.5.1",
   "files": [
