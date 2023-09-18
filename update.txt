@@ -1,0 +1,5 @@
+
+This repository contains references to either cdk-constructs < 5 or aws-cdk < 2, and is a candidate to be updated.
+
+(This file will not be committed in the updated process.)
+
