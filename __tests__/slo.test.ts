@@ -1,6 +1,6 @@
-import * as cdk from "@aws-cdk/core"
-import { Template } from "@aws-cdk/assertions"
+import * as cdk from "aws-cdk-lib"
 import { CfnSlo, CfnSloPropsType, ThresholdTimeframe } from "../src"
+import { Template } from "aws-cdk-lib/assertions"
 
 const testStack = () => {
   const app = new cdk.App()
