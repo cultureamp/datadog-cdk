@@ -12,13 +12,14 @@
     ".": "./dist/index.js"
   },
   "scripts": {
+    "prebuildpackage": "pnpm run clean && pnpm run build --project tsconfig.dist.json",
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
     "clean": "tsc --build --clean && (rm __integration__/*.d.ts __integration__/*.js src/*.d.ts src/*.js || true)",
     "test": "jest",
-    "test-integration": "pnpm run -s clean && pnpm run -s build --project tsconfig.integ.json && pnpm run run-integration; pnpm run -s clean",
+    "test-integration": "pnpm run -s clean && pnpm run -s build && pnpm run run-integration; pnpm run -s clean",
     "run-integration": "integ-runner --parallel-regions us-west-2 --verbose --directory ./__integration__/",
-    "update-integration": "pnpm run -s clean && pnpm run -s build --project tsconfig.integ.json && pnpm run run-integration --update-on-failed; pnpm run -s clean",
+    "update-integration": "pnpm run -s clean && pnpm run -s build && pnpm run run-integration --update-on-failed; pnpm run -s clean",
     "integ": "integ-runner",
     "eslint": "eslint . --ext .ts,.tsx",
     "prettier": "prettier --check '**/*'",
