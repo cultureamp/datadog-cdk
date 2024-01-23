@@ -1,0 +1,65 @@
+{
+  "version": "36.0.0",
+  "artifacts": {
+    "datadogcdk-integration-slo-metric.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "datadogcdk-integration-slo-metric.assets.json"
+      }
+    },
+    "datadogcdk-integration-slo-metric": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "datadogcdk-integration-slo-metric.template.json",
+        "terminationProtection": false,
+        "validateOnSynth": false,
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/7f67f0cfb545865643badf7be7f46e59c1f2c5de8689c60571879e517bae2f48.json",
+        "additionalDependencies": [
+          "datadogcdk-integration-slo-metric.assets"
+        ]
+      },
+      "dependencies": [
+        "datadogcdk-integration-slo-metric.assets"
+      ],
+      "metadata": {
+        "/datadogcdk-integration-slo-metric/TestSlo": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "TestSlo"
+          }
+        ]
+      },
+      "displayName": "datadogcdk-integration-slo-metric"
+    },
+    "IntegDefaultTestDeployAssert4E6713E1.assets": {
+      "type": "cdk:asset-manifest",
+      "properties": {
+        "file": "IntegDefaultTestDeployAssert4E6713E1.assets.json"
+      }
+    },
+    "IntegDefaultTestDeployAssert4E6713E1": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "IntegDefaultTestDeployAssert4E6713E1.template.json",
+        "terminationProtection": false,
+        "validateOnSynth": false,
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a.json",
+        "additionalDependencies": [
+          "IntegDefaultTestDeployAssert4E6713E1.assets"
+        ]
+      },
+      "dependencies": [
+        "IntegDefaultTestDeployAssert4E6713E1.assets"
+      ],
+      "displayName": "Integ/DefaultTest/DeployAssert"
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}

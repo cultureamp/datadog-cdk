@@ -4,6 +4,9 @@ devDependencies:
   '@aws-cdk/integ-runner':
     specifier: 2.122.0-alpha.0
     version: 2.122.0-alpha.0
+  '@aws-cdk/integ-tests-alpha':
+    specifier: 2.122.0-alpha.0
+    version: 2.122.0-alpha.0(aws-cdk-lib@2.112.0)(constructs@10.0.0)
   '@tsconfig/node16':
     specifier: ^1.0.4
     version: 1.0.4
@@ -106,6 +109,17 @@ packages:
       aws-cdk: 2.122.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.112.0)(constructs@10.0.0):
+    resolution: {integrity: sha512-9jd9s4GwMSIcVOCqOBsj8xuQBfDpvssTCqK4ApU8asT/u+zxZROZAjeWg0lB7u2Ti+SH2ghVCSKwNcSwNmnx0g==}
+    engines: {node: '>= 14.15.0'}
+    peerDependencies:
+      aws-cdk-lib: ^2.122.0
+      constructs: ^10.0.0
+    dependencies:
+      aws-cdk-lib: 2.112.0(constructs@10.0.0)
+      constructs: 10.0.0
     dev: true
 
   /@aws-cdk/service-spec-types@0.0.42:
