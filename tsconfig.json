@@ -12,10 +12,9 @@
     "declaration": true,
     "inlineSourceMap": true,
     "inlineSources": true,
-    "outDir": "dist",
 
     // implicit types
     "types": ["node", "jest"]
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*","__integration__/**/*"],
 }
