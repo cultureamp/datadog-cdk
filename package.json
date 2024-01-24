@@ -15,7 +15,7 @@
     "prebuildpackage": "pnpm run clean && pnpm run build --project tsconfig.dist.json",
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
-    "clean": "tsc --build --clean && (rm __integration__/*.d.ts __integration__/*.js src/*.d.ts src/*.js || true)",
+    "clean": "tsc --build --clean && (rm -rf dist || true)",
     "test": "jest",
     "test-integration": "pnpm run -s clean && pnpm run -s build && pnpm run run-integration; pnpm run -s clean",
     "run-integration": "integ-runner --parallel-regions us-west-2 --verbose --directory ./__integration__/",
