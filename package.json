@@ -1,6 +1,6 @@
 {
   "name": "@cultureamp/datadog-cdk",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "CDK constructs for DataDog Cloudformation resources.",
   "packageManager": "pnpm@8.5.1",
   "files": [
@@ -12,13 +12,14 @@
     ".": "./dist/index.js"
   },
   "scripts": {
+    "prebuildpackage": "pnpm run clean && pnpm run build --project tsconfig.dist.json",
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
-    "clean": "tsc --build --clean && (rm __integration__/*.d.ts __integration__/*.js src/*.d.ts src/*.js || true)",
+    "clean": "tsc --build --clean && (rm -rf dist || true)",
     "test": "jest",
-    "test-integration": "pnpm run -s clean && pnpm run -s build --project tsconfig.integ.json && pnpm run run-integration; pnpm run -s clean",
+    "test-integration": "pnpm run -s clean && pnpm run -s build && pnpm run run-integration; pnpm run -s clean",
     "run-integration": "integ-runner --parallel-regions us-west-2 --verbose --directory ./__integration__/",
-    "update-integration": "pnpm run -s clean && pnpm run -s build --project tsconfig.integ.json && pnpm run run-integration --update-on-failed; pnpm run -s clean",
+    "update-integration": "pnpm run -s clean && pnpm run -s build && pnpm run run-integration --update-on-failed; pnpm run -s clean",
     "integ": "integ-runner",
     "eslint": "eslint . --ext .ts,.tsx",
     "prettier": "prettier --check '**/*'",
@@ -34,21 +35,24 @@
   "author": "Culture Amp SRE",
   "license": "MIT",
   "devDependencies": {
-    "@aws-cdk/assertions": "1.x",
-    "@aws-cdk/core": "1.x && < 2.x",
-    "@aws-cdk/integ-runner": "1.x",
+    "@aws-cdk/integ-runner": "2.122.0-alpha.0",
+    "@aws-cdk/integ-tests-alpha": "2.122.0-alpha.0",
     "@tsconfig/node16": "^1.0.4",
     "@types/jest": "^29.5.1",
     "@types/node": "16.x",
-    "@typescript-eslint/eslint-plugin": "^5.43.0",
-    "aws-cdk": "1.x && < 2.x",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "aws-cdk": "2.112.0",
+    "aws-cdk-lib": "2.112.0",
+    "constructs": "^10.0.0",
     "eslint": "^8.41.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-config-standard-with-typescript": "^34.0.1",
-    "eslint-plugin-import": "^2.25.2",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-no-only-tests": "^3.1.0",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
     "jest": "^29.5.0",
     "prettier": "^2.8.8",
     "ts-jest": "^29.1.0",
@@ -56,6 +60,7 @@
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
-    "@aws-cdk/core": "1.x && < 2.x"
+    "aws-cdk-lib": "^2.99.0",
+    "constructs": "^10.0.0"
   }
 }

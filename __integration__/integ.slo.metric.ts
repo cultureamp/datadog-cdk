@@ -1,7 +1,11 @@
-import * as cdk from "@aws-cdk/core"
+import * as cdk from "aws-cdk-lib"
+import * as test from "@aws-cdk/integ-tests-alpha"
+
 import { CfnSlo, CfnSloPropsType, ThresholdTimeframe } from "../src"
 
-const app = new cdk.App()
+const app = new cdk.App({
+  defaultStackSynthesizer: new cdk.CliCredentialsStackSynthesizer(),
+})
 const stack = new cdk.Stack(app, "datadogcdk-integration-slo-metric")
 
 // create a metric-based SLO
@@ -24,3 +28,5 @@ new CfnSlo(stack, "TestSlo", {
   // tag for visibility if the SLO sticks around
   tags: ["repo:datadog-cdk", "env:test", "type:cdk-integration-test"],
 })
+
+new test.IntegTest(app, "Integ", { testCases: [stack] })

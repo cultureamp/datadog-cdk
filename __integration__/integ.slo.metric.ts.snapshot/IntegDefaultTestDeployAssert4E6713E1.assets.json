@@ -1,0 +1,30 @@
+{
+  "version": "35.0.0",
+  "files": {
+    "7f67f0cfb545865643badf7be7f46e59c1f2c5de8689c60571879e517bae2f48": {
+      "source": {
+        "path": "datadogcdk-integration-slo-metric.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "7f67f0cfb545865643badf7be7f46e59c1f2c5de8689c60571879e517bae2f48.json"
+        }
+      }
+    },
+    "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a": {
+      "source": {
+        "path": "IntegDefaultTestDeployAssert4E6713E1.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a.json"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}

@@ -1,0 +1,18 @@
+{
+  "version": "35.0.0",
+  "files": {
+    "7f67f0cfb545865643badf7be7f46e59c1f2c5de8689c60571879e517bae2f48": {
+      "source": {
+        "path": "datadogcdk-integration-slo-metric.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "7f67f0cfb545865643badf7be7f46e59c1f2c5de8689c60571879e517bae2f48.json"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
