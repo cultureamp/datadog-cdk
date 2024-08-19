@@ -1,6 +1,6 @@
 {
   "name": "@cultureamp/datadog-cdk",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "CDK constructs for DataDog Cloudformation resources.",
   "packageManager": "pnpm@8.5.1",
   "files": [
@@ -12,7 +12,7 @@
     ".": "./dist/index.js"
   },
   "scripts": {
-    "prebuildpackage": "pnpm run clean && pnpm run build --project tsconfig.dist.json",
+    "prebuildpackage": "pnpm run clean && pnpm run build --project tsconfig.dist.json && npm pkg delete scripts",
     "preinstall": "npx only-allow pnpm",
     "build": "tsc",
     "clean": "tsc --build --clean && (rm -rf dist || true)",
