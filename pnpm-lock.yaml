@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^15.7.0
     version: 15.7.0(eslint@8.41.0)
   eslint-plugin-no-only-tests:
-    specifier: ^3.1.0
-    version: 3.1.0
+    specifier: ^3.3.0
+    version: 3.3.0
   eslint-plugin-promise:
     specifier: ^6.0.0
     version: 6.1.1(eslint@8.41.0)
@@ -99,6 +99,9 @@ packages:
   /@aws-cdk/cloud-assembly-schema@45.2.0:
     resolution: {integrity: sha512-5TTUkGHQ+nfuUGwKA8/Yraxb+JdNUh4np24qk/VHXmrCMq+M6HfmGWfhcg/QlHA2S5P3YIamfYHdQAB4uSNLAg==}
     engines: {node: '>= 18.0.0'}
+    dependencies:
+      jsonschema: 1.4.1
+      semver: 7.7.2
     dev: true
     bundledDependencies:
       - jsonschema
@@ -1591,7 +1594,7 @@ packages:
   /builtins@5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.5.4
+      semver: 7.7.2
     dev: true
 
   /call-bind@1.0.2:
@@ -2162,8 +2165,8 @@ packages:
       semver: 7.5.4
     dev: true
 
-  /eslint-plugin-no-only-tests@3.1.0:
-    resolution: {integrity: sha512-Lf4YW/bL6Un1R6A76pRZyE1dl1vr31G/ev8UzIc/geCgFWyrKil8hVjYqWVKGB/UIGmb6Slzs9T0wNezdSVegw==}
+  /eslint-plugin-no-only-tests@3.3.0:
+    resolution: {integrity: sha512-brcKcxGnISN2CcVhXJ/kEQlNa0MEfGRtwKtWA16SkqXHKitaKIMrfemJKLKX1YqDU5C/5JY3PvZXd5jEW04e0Q==}
     engines: {node: '>=5.0.0'}
     dev: true
 
@@ -3453,6 +3456,10 @@ packages:
     resolution: {integrity: sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==}
     engines: {node: '>=6'}
     hasBin: true
+    dev: true
+
+  /jsonschema@1.4.1:
+    resolution: {integrity: sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==}
     dev: true
 
   /kleur@3.0.3:
