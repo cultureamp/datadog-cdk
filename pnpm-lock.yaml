@@ -21,10 +21,10 @@ devDependencies:
     specifier: 16.18.126
     version: 16.18.126
   '@typescript-eslint/eslint-plugin':
-    specifier: ^6.7.2
+    specifier: ^6.21.0
     version: 6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.1)(typescript@5.9.2)
   '@typescript-eslint/parser':
-    specifier: ^6.7.2
+    specifier: ^6.21.0
     version: 6.21.0(eslint@8.57.1)(typescript@5.9.2)
   aws-cdk:
     specifier: 2.1024.0
@@ -36,7 +36,7 @@ devDependencies:
     specifier: ^10.4.2
     version: 10.4.2
   eslint:
-    specifier: ^8.41.0
+    specifier: ^8.57.1
     version: 8.57.1
   eslint-config-prettier:
     specifier: ^9.1.2
@@ -45,7 +45,7 @@ devDependencies:
     specifier: ^43.0.1
     version: 43.0.1(@typescript-eslint/eslint-plugin@6.21.0)(eslint-plugin-import@2.32.0)(eslint-plugin-n@15.7.0)(eslint-plugin-promise@6.6.0)(eslint@8.57.1)(typescript@5.9.2)
   eslint-plugin-import:
-    specifier: ^2.28.1
+    specifier: ^2.32.0
     version: 2.32.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.1)
   eslint-plugin-n:
     specifier: ^15.7.0
