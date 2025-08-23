@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   '@aws-cdk/integ-runner':
-    specifier: 2.190.0
-    version: 2.190.0
+    specifier: 2.190.1
+    version: 2.190.1
   '@aws-cdk/integ-tests-alpha':
     specifier: 2.122.0-alpha.0
     version: 2.122.0-alpha.0(aws-cdk-lib@2.212.0)(constructs@10.4.2)
@@ -27,8 +27,8 @@ devDependencies:
     specifier: ^6.21.0
     version: 6.21.0(eslint@8.57.1)(typescript@5.9.2)
   aws-cdk:
-    specifier: 2.1025.0
-    version: 2.1025.0
+    specifier: 2.1026.0
+    version: 2.1026.0
   aws-cdk-lib:
     specifier: 2.212.0
     version: 2.212.0(constructs@10.4.2)
@@ -93,10 +93,10 @@ packages:
     resolution: {integrity: sha512-7bY3J8GCVxLupn/kNmpPc5VJz8grx+4RKfnnJiO1LG+uxkZfANZG3RMHhE+qQxxwkyQ9/MfPtTpf748UhR425A==}
     dev: true
 
-  /@aws-cdk/aws-service-spec@0.1.90:
-    resolution: {integrity: sha512-jpkEL6rj/nG8mu5wWbG7fQhmrdi20ZCpcgxZmsBLM9a//GUiXw+5X5F1+ABYBIaXdaRagmcP1R3FuPzNZoq2cw==}
+  /@aws-cdk/aws-service-spec@0.1.92:
+    resolution: {integrity: sha512-raGRpbQ6F55jTiTta3DVYMX8rkl2HGYFxtkpe6P6ppGjweNz8w1HgiF6iHeA/asjZNf9CccGYzg+jybJSxRAsA==}
     dependencies:
-      '@aws-cdk/service-spec-types': 0.0.156
+      '@aws-cdk/service-spec-types': 0.0.158
       '@cdklabs/tskb': 0.0.3
     dev: true
 
@@ -108,13 +108,13 @@ packages:
       - jsonschema
       - semver
 
-  /@aws-cdk/integ-runner@2.190.0:
-    resolution: {integrity: sha512-cP/1e9SfnFNJZoMQYDc4/xRueuNpOAT+iKTkjhxLzQ43RY3uruRnHPl4Chm5kSLZuLaERcYOTlXYZQYzR/fzxg==}
+  /@aws-cdk/integ-runner@2.190.1:
+    resolution: {integrity: sha512-RdyX8yOmnHs63OvCJjWQMeE/+Jmj9UBwMC7lPfnXYkhwyA4glKlUOxlJs92Pkt2MNkCVOJymdngNrV5lGc+o6g==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     dependencies:
-      '@aws-cdk/aws-service-spec': 0.1.90
-      aws-cdk: 2.1025.0
+      '@aws-cdk/aws-service-spec': 0.1.92
+      aws-cdk: 2.1026.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -130,8 +130,8 @@ packages:
       constructs: 10.4.2
     dev: true
 
-  /@aws-cdk/service-spec-types@0.0.156:
-    resolution: {integrity: sha512-LTtI7HFaeYUor8kmSQ7CHwxSRuJhWRagzjrO/zBnk+c44QDJQavfNPj8B+EPi7zu03lv/d3FfSMPNbyt7j82cQ==}
+  /@aws-cdk/service-spec-types@0.0.158:
+    resolution: {integrity: sha512-bWloZVh9AbLCJpNtWf4jBx9vMfMX7RW37nlWeidZ3i8emgPHsNQ0ytqR3RQ2RMYs1BRta1prexdd2MOL2Pww9Q==}
     dependencies:
       '@cdklabs/tskb': 0.0.3
     dev: true
@@ -1251,8 +1251,8 @@ packages:
       - yaml
       - mime-types
 
-  /aws-cdk@2.1025.0:
-    resolution: {integrity: sha512-qKYM+RG5+U/UbGpjTt8ZaxBEfKJMPdOmtPtFNidsIGlrdIWSIFdNcFYi13zo33FkMk6ZFA6yBnjfDry3fNR+hQ==}
+  /aws-cdk@2.1026.0:
+    resolution: {integrity: sha512-JdXR20s9gMHY3niweK5/D9tILLG8u2FOyJjWgSaNZGJ+pq9u0sBFxufXPO4VxJzDitGFOIW5VvQThXP+Y2VrVA==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
     optionalDependencies:
