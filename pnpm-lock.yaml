@@ -10,7 +10,7 @@ devDependencies:
     version: 2.190.0
   '@aws-cdk/integ-tests-alpha':
     specifier: 2.122.0-alpha.0
-    version: 2.122.0-alpha.0(aws-cdk-lib@2.211.0)(constructs@10.4.2)
+    version: 2.122.0-alpha.0(aws-cdk-lib@2.212.0)(constructs@10.4.2)
   '@tsconfig/node16':
     specifier: ^1.0.4
     version: 1.0.4
@@ -30,8 +30,8 @@ devDependencies:
     specifier: 2.1025.0
     version: 2.1025.0
   aws-cdk-lib:
-    specifier: 2.211.0
-    version: 2.211.0(constructs@10.4.2)
+    specifier: 2.212.0
+    version: 2.212.0(constructs@10.4.2)
   constructs:
     specifier: ^10.4.2
     version: 10.4.2
@@ -119,14 +119,14 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.211.0)(constructs@10.4.2):
+  /@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.212.0)(constructs@10.4.2):
     resolution: {integrity: sha512-9jd9s4GwMSIcVOCqOBsj8xuQBfDpvssTCqK4ApU8asT/u+zxZROZAjeWg0lB7u2Ti+SH2ghVCSKwNcSwNmnx0g==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       aws-cdk-lib: ^2.122.0
       constructs: ^10.0.0
     dependencies:
-      aws-cdk-lib: 2.211.0(constructs@10.4.2)
+      aws-cdk-lib: 2.212.0(constructs@10.4.2)
       constructs: 10.4.2
     dev: true
 
@@ -1227,8 +1227,8 @@ packages:
       possible-typed-array-names: 1.1.0
     dev: true
 
-  /aws-cdk-lib@2.211.0(constructs@10.4.2):
-    resolution: {integrity: sha512-wrEPu25572HUJwySzL/qf/fFM+a22X7HYpq1uqcjAn4sVL+h52WjVjnI7rDAuhBp6efX6+Jhmw7jZDMql4/+Cw==}
+  /aws-cdk-lib@2.212.0(constructs@10.4.2):
+    resolution: {integrity: sha512-7vy3/fSwmkJe6hmPpX2DXeDIr/VhMjhOPRH4Y0IUjC0c+W6S4XwQU2urRq3DFJRKRWXDwKidqMZlF1m0ZY1wMw==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       constructs: ^10.0.0
