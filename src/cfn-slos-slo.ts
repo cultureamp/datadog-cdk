@@ -68,7 +68,7 @@ export interface CfnSloProps {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_CfnSloProps(
-  obj: CfnSloProps | undefined
+  obj: CfnSloProps | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -86,7 +86,7 @@ function toJson_CfnSloProps(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -125,7 +125,7 @@ function toJson_Query(obj: Query | undefined): Record<string, any> | undefined {
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -175,7 +175,7 @@ export interface Threshold {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_Threshold(
-  obj: Threshold | undefined
+  obj: Threshold | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -190,7 +190,7 @@ function toJson_Threshold(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */

@@ -84,7 +84,7 @@ export interface CfnMonitorProps {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_CfnMonitorProps(
-  obj: CfnMonitorProps | undefined
+  obj: CfnMonitorProps | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -104,7 +104,7 @@ function toJson_CfnMonitorProps(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -140,7 +140,7 @@ export interface Creator {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_Creator(
-  obj: Creator | undefined
+  obj: Creator | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -153,7 +153,7 @@ function toJson_Creator(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -315,7 +315,7 @@ export interface MonitorOptions {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_MonitorOptions(
-  obj: MonitorOptions | undefined
+  obj: MonitorOptions | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -346,7 +346,7 @@ function toJson_MonitorOptions(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -436,7 +436,7 @@ export interface MonitorThresholds {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_MonitorThresholds(
-  obj: MonitorThresholds | undefined
+  obj: MonitorThresholds | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -451,7 +451,7 @@ function toJson_MonitorThresholds(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -480,7 +480,7 @@ export interface MonitorThresholdWindows {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_MonitorThresholdWindows(
-  obj: MonitorThresholdWindows | undefined
+  obj: MonitorThresholdWindows | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -492,7 +492,7 @@ function toJson_MonitorThresholdWindows(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
