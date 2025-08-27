@@ -3,11 +3,17 @@ module.exports = {
     browser: false,
     es2021: true,
   },
-  extends: ["standard-with-typescript", "prettier"],
-  plugins: ["sort-imports-es6-autofix"],
+  extends: [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+  ],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint", "sort-imports-es6-autofix"],
   rules: {
     "no-new": ["off"],
     "@typescript-eslint/explicit-function-return-type": ["off"],
+    "@typescript-eslint/no-explicit-any": ["off"],
   },
   overrides: [],
   parserOptions: {
