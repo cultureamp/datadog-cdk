@@ -51,14 +51,14 @@ export interface CfnUserProps {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_CfnUserProps(
-  obj: CfnUserProps | undefined
+  obj: CfnUserProps | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
   }
   const result = {
     DatadogCredentials: toJson_CfnUserPropsDatadogCredentials(
-      obj.datadogCredentials
+      obj.datadogCredentials,
     ),
     AccessRole: obj.accessRole,
     Email: obj.email,
@@ -68,7 +68,7 @@ function toJson_CfnUserProps(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -106,7 +106,7 @@ export interface CfnUserPropsDatadogCredentials {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_CfnUserPropsDatadogCredentials(
-  obj: CfnUserPropsDatadogCredentials | undefined
+  obj: CfnUserPropsDatadogCredentials | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -119,7 +119,7 @@ function toJson_CfnUserPropsDatadogCredentials(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */

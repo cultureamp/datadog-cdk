@@ -23,7 +23,7 @@ export interface CfnDashboardProps {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_CfnDashboardProps(
-  obj: CfnDashboardProps | undefined
+  obj: CfnDashboardProps | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -34,7 +34,7 @@ function toJson_CfnDashboardProps(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -79,7 +79,7 @@ export class CfnDashboard extends cdk.CfnResource {
   constructor(
     scope: constructs.Construct,
     id: string,
-    props: CfnDashboardProps
+    props: CfnDashboardProps,
   ) {
     super(scope, id, {
       type: CfnDashboard.CFN_RESOURCE_TYPE_NAME,
