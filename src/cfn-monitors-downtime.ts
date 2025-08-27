@@ -72,7 +72,7 @@ export interface CfnDowntimeProps {
  */
 /* eslint-disable max-len, quote-props */
 function toJson_CfnDowntimeProps(
-  obj: CfnDowntimeProps | undefined
+  obj: CfnDowntimeProps | undefined,
 ): Record<string, any> | undefined {
   if (obj === undefined) {
     return undefined
@@ -90,7 +90,7 @@ function toJson_CfnDowntimeProps(
   // filter undefined values
   return Object.entries(result).reduce(
     (r, i) => (i[1] === undefined ? r : { ...r, [i[0]]: i[1] }),
-    {}
+    {},
   )
 }
 /* eslint-enable max-len, quote-props */
@@ -159,7 +159,7 @@ export class CfnDowntime extends cdk.CfnResource {
   constructor(
     scope: constructs.Construct,
     id: string,
-    props: CfnDowntimeProps
+    props: CfnDowntimeProps,
   ) {
     super(scope, id, {
       type: CfnDowntime.CFN_RESOURCE_TYPE_NAME,
