@@ -39,7 +39,7 @@
     "@aws-cdk/integ-tests-alpha": "2.122.0-alpha.0",
     "@tsconfig/node16": "^16.1.4",
     "@types/jest": "^29.5.14",
-    "@types/node": "16.18.126",
+    "@types/node": "22.15.32",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "aws-cdk": "2.1026.0",
