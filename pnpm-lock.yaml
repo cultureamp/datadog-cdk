@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@aws-cdk/integ-runner':
-        specifier: 2.190.1
-        version: 2.190.1
+        specifier: 2.190.2
+        version: 2.190.2
       '@aws-cdk/integ-tests-alpha':
         specifier: 2.122.0-alpha.0
-        version: 2.122.0-alpha.0(aws-cdk-lib@2.212.0(constructs@10.4.2))(constructs@10.4.2)
+        version: 2.122.0-alpha.0(aws-cdk-lib@2.213.0(constructs@10.4.2))(constructs@10.4.2)
       '@tsconfig/node16':
         specifier: ^16.1.4
         version: 16.1.4
@@ -30,11 +30,11 @@ importers:
         specifier: ^8.40.0
         version: 8.41.0(eslint@8.57.1)(typescript@5.9.2)
       aws-cdk:
-        specifier: 2.1026.0
-        version: 2.1026.0
+        specifier: 2.1027.0
+        version: 2.1027.0
       aws-cdk-lib:
-        specifier: 2.212.0
-        version: 2.212.0(constructs@10.4.2)
+        specifier: 2.213.0
+        version: 2.213.0(constructs@10.4.2)
       constructs:
         specifier: ^10.4.2
         version: 10.4.2
@@ -100,8 +100,8 @@ packages:
       - jsonschema
       - semver
 
-  '@aws-cdk/integ-runner@2.190.1':
-    resolution: {integrity: sha512-RdyX8yOmnHs63OvCJjWQMeE/+Jmj9UBwMC7lPfnXYkhwyA4glKlUOxlJs92Pkt2MNkCVOJymdngNrV5lGc+o6g==}
+  '@aws-cdk/integ-runner@2.190.2':
+    resolution: {integrity: sha512-uWY3n/U3KgeJheCmE5Jci2nDhgz/eGxHVvf6QAji+pXFKkIEiAU+aRDuXjG61DdSc2kLi57Jy1rK2KDMOX4Zig==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -807,8 +807,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.212.0:
-    resolution: {integrity: sha512-7vy3/fSwmkJe6hmPpX2DXeDIr/VhMjhOPRH4Y0IUjC0c+W6S4XwQU2urRq3DFJRKRWXDwKidqMZlF1m0ZY1wMw==}
+  aws-cdk-lib@2.213.0:
+    resolution: {integrity: sha512-U6/1RnVu9R7bpb9gJoEl0tie4+f7/5MIWkolWhsoaaEjQ3XwKicaLxzGPZaU4hShDOG+pp6+1Lp9pofOdV0t8A==}
     engines: {node: '>= 18.0.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -825,8 +825,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1026.0:
-    resolution: {integrity: sha512-JdXR20s9gMHY3niweK5/D9tILLG8u2FOyJjWgSaNZGJ+pq9u0sBFxufXPO4VxJzDitGFOIW5VvQThXP+Y2VrVA==}
+  aws-cdk@2.1027.0:
+    resolution: {integrity: sha512-oo2d1o8L1GBmAG4cDzIloEBOkijf1VzpZKJJguAodUCffDDOaAd6zjEbQbedb3SY+Vg+8m9OUOEXzeLMMg3GPQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2465,16 +2465,16 @@ snapshots:
 
   '@aws-cdk/cloud-assembly-schema@48.4.0': {}
 
-  '@aws-cdk/integ-runner@2.190.1':
+  '@aws-cdk/integ-runner@2.190.2':
     dependencies:
       '@aws-cdk/aws-service-spec': 0.1.92
-      aws-cdk: 2.1026.0
+      aws-cdk: 2.1027.0
     optionalDependencies:
       fsevents: 2.3.2
 
-  '@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.212.0(constructs@10.4.2))(constructs@10.4.2)':
+  '@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.213.0(constructs@10.4.2))(constructs@10.4.2)':
     dependencies:
-      aws-cdk-lib: 2.212.0(constructs@10.4.2)
+      aws-cdk-lib: 2.213.0(constructs@10.4.2)
       constructs: 10.4.2
 
   '@aws-cdk/service-spec-types@0.0.158':
@@ -3343,14 +3343,14 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk-lib@2.212.0(constructs@10.4.2):
+  aws-cdk-lib@2.213.0(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.242
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 48.4.0
       constructs: 10.4.2
 
-  aws-cdk@2.1026.0:
+  aws-cdk@2.1027.0:
     optionalDependencies:
       fsevents: 2.3.2
 
