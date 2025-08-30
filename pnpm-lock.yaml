@@ -24,10 +24,10 @@ importers:
         specifier: 22.15.32
         version: 22.15.32
       '@typescript-eslint/eslint-plugin':
-        specifier: ^8.40.0
+        specifier: ^8.41.0
         version: 8.41.0(@typescript-eslint/parser@8.41.0(eslint@8.57.1)(typescript@5.9.2))(eslint@8.57.1)(typescript@5.9.2)
       '@typescript-eslint/parser':
-        specifier: ^8.40.0
+        specifier: ^8.41.0
         version: 8.41.0(eslint@8.57.1)(typescript@5.9.2)
       aws-cdk:
         specifier: 2.1027.0
