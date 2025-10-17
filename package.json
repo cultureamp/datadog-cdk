@@ -2,7 +2,7 @@
   "name": "@cultureamp/datadog-cdk",
   "version": "2.0.1",
   "description": "CDK constructs for DataDog Cloudformation resources.",
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.18.2",
   "files": [
     "/dist"
   ],
@@ -40,8 +40,8 @@
     "@tsconfig/node16": "^16.1.5",
     "@types/jest": "^30.0.0",
     "@types/node": "22.18.8",
-    "@typescript-eslint/eslint-plugin": "^8.40.0",
-    "@typescript-eslint/parser": "^8.40.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.0",
+    "@typescript-eslint/parser": "^8.46.0",
     "aws-cdk": "2.1030.0",
     "aws-cdk-lib": "2.219.0",
     "constructs": "^10.4.2",
