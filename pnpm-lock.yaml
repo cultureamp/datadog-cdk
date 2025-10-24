@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@aws-cdk/integ-runner':
-        specifier: 2.191.0
-        version: 2.191.0
+        specifier: 2.191.1
+        version: 2.191.1
       '@aws-cdk/integ-tests-alpha':
         specifier: 2.122.0-alpha.0
         version: 2.122.0-alpha.0(aws-cdk-lib@2.220.0(constructs@10.4.2))(constructs@10.4.2)
@@ -30,8 +30,8 @@ importers:
         specifier: ^8.46.0
         version: 8.46.0(eslint@8.57.1)(typescript@5.9.3)
       aws-cdk:
-        specifier: 2.1030.0
-        version: 2.1030.0
+        specifier: 2.1031.0
+        version: 2.1031.0
       aws-cdk-lib:
         specifier: 2.220.0
         version: 2.220.0(constructs@10.4.2)
@@ -100,8 +100,8 @@ packages:
       - jsonschema
       - semver
 
-  '@aws-cdk/integ-runner@2.191.0':
-    resolution: {integrity: sha512-by5HyXzz0YSLGc9jAvSvYJYN8UO8KqVRlxTo+RJAbwPPmuqiqnHWQPnwcH8FUVk2jHuTxLnqfz1oZhRvtJaYMQ==}
+  '@aws-cdk/integ-runner@2.191.1':
+    resolution: {integrity: sha512-vQelDontnIJL1INkx0kk82ADgJBMKE/LGpvqPJdwx99DJXuF4pg9Ae6tuaA2UFKbIYAaAFACHooU+LhYFTaZJw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -833,8 +833,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1030.0:
-    resolution: {integrity: sha512-jYgOy1Hqx8cOTWW9On9xpypXLecjOqSZ4X2q5U0Gzd14xI+HLmpaRJV5ILJ8vYrLKVbqjhiog0pdxAC7vwF9uQ==}
+  aws-cdk@2.1031.0:
+    resolution: {integrity: sha512-iotbdOIvHoLCz1u7PUVDQbcpGpVqMk8HzAeOP4PGRqD9PoAEsCb3mwGTxHMrNGEGWdJXQxiTOGSaMmlwEvACxA==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2506,10 +2506,10 @@ snapshots:
 
   '@aws-cdk/cloud-assembly-schema@48.8.0': {}
 
-  '@aws-cdk/integ-runner@2.191.0':
+  '@aws-cdk/integ-runner@2.191.1':
     dependencies:
       '@aws-cdk/aws-service-spec': 0.1.98
-      aws-cdk: 2.1030.0
+      aws-cdk: 2.1031.0
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -3405,7 +3405,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 48.8.0
       constructs: 10.4.2
 
-  aws-cdk@2.1030.0:
+  aws-cdk@2.1031.0:
     optionalDependencies:
       fsevents: 2.3.2
 
