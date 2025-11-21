@@ -15,8 +15,8 @@ importers:
         specifier: 2.122.0-alpha.0
         version: 2.122.0-alpha.0(aws-cdk-lib@2.224.0(constructs@10.4.3))(constructs@10.4.3)
       '@tsconfig/node16':
-        specifier: ^16.1.7
-        version: 16.1.7
+        specifier: ^16.1.8
+        version: 16.1.8
       '@types/jest':
         specifier: ^30.0.0
         version: 30.0.0
@@ -492,8 +492,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@tsconfig/node16@16.1.7':
-    resolution: {integrity: sha512-X67O+HURaZrfrfKb0ROvrknzF6n0X/6vigqU07mm3hwuCfPCxE9gp/p4WEMp1D8Q357LYc4Nqm2QJq9sTovnZw==}
+  '@tsconfig/node16@16.1.8':
+    resolution: {integrity: sha512-T/CfdwFry660WjZor56z0F3pxeCllt8KOxWcHFW6ZEuULKUObTDEMdgtctyuJPxwqyWDsvHRfxHaJ4FIICyoqQ==}
 
   '@tybys/wasm-util@0.10.0':
     resolution: {integrity: sha512-VyyPYFlOMNylG45GoAe0xDoLwWuowvf92F9kySqzYh8vmYm7D2u4iUJKa1tOUpS70Ku13ASrOkS4ScXFsTaCNQ==}
@@ -3043,7 +3043,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@tsconfig/node16@16.1.7': {}
+  '@tsconfig/node16@16.1.8': {}
 
   '@tybys/wasm-util@0.10.0':
     dependencies:
