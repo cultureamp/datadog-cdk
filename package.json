@@ -40,10 +40,10 @@
     "@tsconfig/node16": "^16.1.8",
     "@types/jest": "^30.0.0",
     "@types/node": "22.19.1",
-    "@typescript-eslint/eslint-plugin": "^8.48.0",
-    "@typescript-eslint/parser": "^8.48.0",
+    "@typescript-eslint/eslint-plugin": "^8.48.1",
+    "@typescript-eslint/parser": "^8.48.1",
     "aws-cdk": "2.1033.0",
-    "aws-cdk-lib": "2.230.0",
+    "aws-cdk-lib": "2.231.0",
     "constructs": "^10.4.3",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
@@ -54,13 +54,13 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
     "jest": "^30.2.0",
-    "prettier": "^3.7.1",
+    "prettier": "^3.7.4",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.230.0",
+    "aws-cdk-lib": "^2.231.0",
     "constructs": "^10.4.3"
   }
 }
