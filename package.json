@@ -2,7 +2,7 @@
   "name": "@cultureamp/datadog-cdk",
   "version": "2.0.1",
   "description": "CDK constructs for DataDog Cloudformation resources.",
-  "packageManager": "pnpm@10.17.1+sha512.17c560fca4867ae9473a3899ad84a88334914f379be46d455cbf92e5cf4b39d34985d452d2583baf19967fa76cb5c17bc9e245529d0b98745721aa7200ecaf7a",
+  "packageManager": "pnpm@10.25.0",
   "files": [
     "/dist"
   ],
@@ -35,32 +35,32 @@
   "author": "Culture Amp SRE",
   "license": "MIT",
   "devDependencies": {
-    "@aws-cdk/integ-runner": "2.190.1",
+    "@aws-cdk/integ-runner": "2.193.0",
     "@aws-cdk/integ-tests-alpha": "2.122.0-alpha.0",
-    "@tsconfig/node16": "^16.1.4",
+    "@tsconfig/node16": "^16.1.8",
     "@types/jest": "^30.0.0",
-    "@types/node": "22.15.32",
-    "@typescript-eslint/eslint-plugin": "^8.40.0",
-    "@typescript-eslint/parser": "^8.40.0",
-    "aws-cdk": "2.1026.0",
-    "aws-cdk-lib": "2.212.0",
-    "constructs": "^10.4.2",
+    "@types/node": "22.19.2",
+    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@typescript-eslint/parser": "^8.49.0",
+    "aws-cdk": "2.1034.0",
+    "aws-cdk-lib": "2.232.1",
+    "constructs": "^10.4.4",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-n": "^17.21.3",
+    "eslint-plugin-n": "^17.23.1",
     "eslint-plugin-no-only-tests": "^3.3.0",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
-    "jest": "^30.0.5",
-    "prettier": "^3.6.2",
-    "ts-jest": "^29.4.1",
+    "jest": "^30.2.0",
+    "prettier": "^3.7.4",
+    "ts-jest": "^29.4.6",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.212.0",
-    "constructs": "^10.4.2"
+    "aws-cdk-lib": "^2.232.1",
+    "constructs": "^10.4.4"
   }
 }
