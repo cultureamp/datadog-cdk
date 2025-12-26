@@ -2,7 +2,7 @@
   "name": "@cultureamp/datadog-cdk",
   "version": "2.0.1",
   "description": "CDK constructs for DataDog Cloudformation resources.",
-  "packageManager": "pnpm@10.25.0",
+  "packageManager": "pnpm@10.26.2",
   "files": [
     "/dist"
   ],
@@ -35,15 +35,15 @@
   "author": "Culture Amp SRE",
   "license": "MIT",
   "devDependencies": {
-    "@aws-cdk/integ-runner": "2.193.0",
+    "@aws-cdk/integ-runner": "2.193.2",
     "@aws-cdk/integ-tests-alpha": "2.122.0-alpha.0",
     "@tsconfig/node16": "^16.1.8",
     "@types/jest": "^30.0.0",
-    "@types/node": "22.19.2",
-    "@typescript-eslint/eslint-plugin": "^8.49.0",
-    "@typescript-eslint/parser": "^8.49.0",
-    "aws-cdk": "2.1034.0",
-    "aws-cdk-lib": "2.232.1",
+    "@types/node": "22.19.3",
+    "@typescript-eslint/eslint-plugin": "^8.50.1",
+    "@typescript-eslint/parser": "^8.50.1",
+    "aws-cdk": "2.1100.1",
+    "aws-cdk-lib": "2.233.0",
     "constructs": "^10.4.4",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
@@ -60,7 +60,7 @@
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.232.1",
+    "aws-cdk-lib": "^2.233.0",
     "constructs": "^10.4.4"
   }
 }
