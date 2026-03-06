@@ -35,15 +35,15 @@
   "author": "Culture Amp SRE",
   "license": "MIT",
   "devDependencies": {
-    "@aws-cdk/integ-runner": "2.197.1",
+    "@aws-cdk/integ-runner": "2.197.2",
     "@aws-cdk/integ-tests-alpha": "2.122.0-alpha.0",
     "@tsconfig/node16": "^16.1.8",
     "@types/jest": "^30.0.0",
     "@types/node": "22.19.13",
     "@typescript-eslint/eslint-plugin": "^8.53.1",
     "@typescript-eslint/parser": "^8.53.1",
-    "aws-cdk": "2.1108.0",
-    "aws-cdk-lib": "2.240.0",
+    "aws-cdk": "2.1109.0",
+    "aws-cdk-lib": "2.241.0",
     "constructs": "^10.5.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
@@ -60,7 +60,7 @@
     "typescript": "^5.9.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.240.0",
+    "aws-cdk-lib": "^2.241.0",
     "constructs": "^10.5.1"
   }
 }
