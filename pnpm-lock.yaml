@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@aws-cdk/integ-runner':
-        specifier: 2.197.5
-        version: 2.197.5
+        specifier: 2.197.7
+        version: 2.197.7
       '@aws-cdk/integ-tests-alpha':
         specifier: 2.122.0-alpha.0
-        version: 2.122.0-alpha.0(aws-cdk-lib@2.244.0(constructs@10.5.1))(constructs@10.5.1)
+        version: 2.122.0-alpha.0(aws-cdk-lib@2.244.0(constructs@10.6.0))(constructs@10.6.0)
       '@tsconfig/node16':
         specifier: ^16.1.8
         version: 16.1.8
@@ -30,14 +30,14 @@ importers:
         specifier: ^8.53.1
         version: 8.53.1(eslint@8.57.1)(typescript@5.9.3)
       aws-cdk:
-        specifier: 2.1112.0
-        version: 2.1112.0
+        specifier: 2.1113.0
+        version: 2.1113.0
       aws-cdk-lib:
         specifier: 2.244.0
-        version: 2.244.0(constructs@10.5.1)
+        version: 2.244.0(constructs@10.6.0)
       constructs:
-        specifier: ^10.5.1
-        version: 10.5.1
+        specifier: ^10.6.0
+        version: 10.6.0
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -100,8 +100,8 @@ packages:
       - jsonschema
       - semver
 
-  '@aws-cdk/integ-runner@2.197.5':
-    resolution: {integrity: sha512-49XOXEkB0d0kE7ln6RV5EndSMfFs6GEqt4m/zRX31ue5ZwIB9ZEzpPf8TfM/3yUHw0W+SGNS4tPfDzK2eW1q0w==}
+  '@aws-cdk/integ-runner@2.197.7':
+    resolution: {integrity: sha512-xSHOxrfV7eA+LG58eoyCyA7IV2QC4kmChzy+k66v2yi8QY9XNazucFLyQxaDEuGGhK3m0wsfhs2lWxOxx8UnXg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -856,9 +856,15 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1112.0:
-    resolution: {integrity: sha512-IYUbsd9tpBQRqEO2evWsG+p2ZNa6wG5/sJvmWaqo45V1ep8BW+mrf+jEpFLD9uDPXqRA57EZGVGils7QLbOhNA==}
+  aws-cdk@2.1113.0:
+    resolution: {integrity: sha512-7D2cVJ66tRZ7KbdTfQLgwPu/XvAeb3r42MMVG605kaxWdIUczdJcuk9x5JVahDCFKRcjepLLYu5N+ovnHFYxBQ==}
     engines: {node: '>= 18.0.0'}
+    hasBin: true
+
+  aws-cdk@2.1114.0:
+    resolution: {integrity: sha512-qaEIVjlDb7nFb6pjZQezMaRgex7qixUU9WM1FYVlBs8Ishp5yzYkTVABGi6MNy2B0PN82gliI26vBYIdKslYUw==}
+    engines: {node: '>= 18.0.0'}
+    deprecated: Version is broken in certain environments
     hasBin: true
 
   babel-jest@30.3.0:
@@ -977,8 +983,8 @@ packages:
   concat-map@0.0.1:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
-  constructs@10.5.1:
-    resolution: {integrity: sha512-f/TfFXiS3G/yVIXDjOQn9oTlyu9Wo7Fxyjj7lb8r92iO81jR2uST+9MstxZTmDGx/CgIbxCXkFXgupnLTNxQZg==}
+  constructs@10.6.0:
+    resolution: {integrity: sha512-TxHOnBO5zMo/G76ykzGF/wMpEHu257TbWiIxP9K0Yv/+t70UzgBQiTqjkAsWOPC6jW91DzJI0+ehQV6xDRNBuQ==}
 
   convert-source-map@2.0.0:
     resolution: {integrity: sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==}
@@ -2542,15 +2548,15 @@ snapshots:
 
   '@aws-cdk/cloud-assembly-schema@52.2.0': {}
 
-  '@aws-cdk/integ-runner@2.197.5':
+  '@aws-cdk/integ-runner@2.197.7':
     dependencies:
       '@aws-cdk/aws-service-spec': 0.1.161
-      aws-cdk: 2.1112.0
+      aws-cdk: 2.1114.0
 
-  '@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.244.0(constructs@10.5.1))(constructs@10.5.1)':
+  '@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.244.0(constructs@10.6.0))(constructs@10.6.0)':
     dependencies:
-      aws-cdk-lib: 2.244.0(constructs@10.5.1)
-      constructs: 10.5.1
+      aws-cdk-lib: 2.244.0(constructs@10.6.0)
+      constructs: 10.6.0
 
   '@aws-cdk/service-spec-types@0.0.227':
     dependencies:
@@ -3437,14 +3443,16 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk-lib@2.244.0(constructs@10.5.1):
+  aws-cdk-lib@2.244.0(constructs@10.6.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.263
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.1
       '@aws-cdk/cloud-assembly-schema': 52.2.0
-      constructs: 10.5.1
+      constructs: 10.6.0
 
-  aws-cdk@2.1112.0: {}
+  aws-cdk@2.1113.0: {}
+
+  aws-cdk@2.1114.0: {}
 
   babel-jest@30.3.0(@babel/core@7.28.3):
     dependencies:
@@ -3584,7 +3592,7 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  constructs@10.5.1: {}
+  constructs@10.6.0: {}
 
   convert-source-map@2.0.0: {}
 
