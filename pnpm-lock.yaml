@@ -13,7 +13,7 @@ importers:
         version: 2.197.11
       '@aws-cdk/integ-tests-alpha':
         specifier: 2.122.0-alpha.0
-        version: 2.122.0-alpha.0(aws-cdk-lib@2.247.0(constructs@10.6.0))(constructs@10.6.0)
+        version: 2.122.0-alpha.0(aws-cdk-lib@2.248.0(constructs@10.6.0))(constructs@10.6.0)
       '@tsconfig/node16':
         specifier: ^16.1.8
         version: 16.1.8
@@ -33,8 +33,8 @@ importers:
         specifier: 2.1116.0
         version: 2.1116.0
       aws-cdk-lib:
-        specifier: 2.247.0
-        version: 2.247.0(constructs@10.6.0)
+        specifier: 2.248.0
+        version: 2.248.0(constructs@10.6.0)
       constructs:
         specifier: ^10.6.0
         version: 10.6.0
@@ -837,8 +837,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.247.0:
-    resolution: {integrity: sha512-jwGmLg3qycFx0G+uEhoqk6pzSg6BAiaCQpuUreHUE4BnrhcUEG202BZ+PL8oU943fDjlI/xuwaS+Icru3fecYQ==}
+  aws-cdk-lib@2.248.0:
+    resolution: {integrity: sha512-PGQycx/OdyX+t0o6QUFI1KJAOLoyIVj2WwrN0syrwCi8lYxW2KzldZsW0X+/UN/ALNQwcjSr927ImTpuDOh+bg==}
     engines: {node: '>= 20.0.0'}
     peerDependencies:
       constructs: ^10.5.0
@@ -2552,9 +2552,9 @@ snapshots:
       '@aws-cdk/aws-service-spec': 0.1.167
       aws-cdk: 2.1116.0
 
-  '@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.247.0(constructs@10.6.0))(constructs@10.6.0)':
+  '@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.248.0(constructs@10.6.0))(constructs@10.6.0)':
     dependencies:
-      aws-cdk-lib: 2.247.0(constructs@10.6.0)
+      aws-cdk-lib: 2.248.0(constructs@10.6.0)
       constructs: 10.6.0
 
   '@aws-cdk/service-spec-types@0.0.233':
@@ -3442,7 +3442,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk-lib@2.247.0(constructs@10.6.0):
+  aws-cdk-lib@2.248.0(constructs@10.6.0):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.273
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.1
