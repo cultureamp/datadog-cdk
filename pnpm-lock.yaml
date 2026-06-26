@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@aws-cdk/integ-runner':
-        specifier: 2.200.1
-        version: 2.200.1
+        specifier: 2.200.2
+        version: 2.200.2
       '@aws-cdk/integ-tests-alpha':
         specifier: 2.122.0-alpha.0
         version: 2.122.0-alpha.0(aws-cdk-lib@2.260.0(constructs@10.6.0))(constructs@10.6.0)
@@ -30,8 +30,8 @@ importers:
         specifier: ^8.58.0
         version: 8.58.0(eslint@8.57.1)(typescript@6.0.3)
       aws-cdk:
-        specifier: 2.1128.0
-        version: 2.1128.0
+        specifier: 2.1128.1
+        version: 2.1128.1
       aws-cdk-lib:
         specifier: 2.260.0
         version: 2.260.0(constructs@10.6.0)
@@ -100,8 +100,8 @@ packages:
       - jsonschema
       - semver
 
-  '@aws-cdk/integ-runner@2.200.1':
-    resolution: {integrity: sha512-BA3re173bCnyEEHR7dJaZ5ksJ5ZDZc+Kw6KweGZTJAafLdnWHOh1Za96wHYaKHLEVKSgwa0YXm4iHmXWsn0v5A==}
+  '@aws-cdk/integ-runner@2.200.2':
+    resolution: {integrity: sha512-fd/RIYrcB19eZTzYTDKpB+mRFJ5lvOwHKvEnBjN4pxbALxG2tWcyZG81uPeGkt0deYAg0Jl5MnU8ajJKkmxJ8A==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -865,8 +865,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1128.0:
-    resolution: {integrity: sha512-CXPl6Yu0gDqrS2GYDPoMCQbdJFS0tupzN8nuaTku3fewTdQJhHGK/2QpwMV/mVgsTTHB9riXT3Zt/k4trh8tCw==}
+  aws-cdk@2.1128.1:
+    resolution: {integrity: sha512-y9OHn5/BOcIiq409vPvpypMIr7/8M1ScFe8IkFMSCN1/GI/5c73fQ4pfzNq+VDkj86T5zxs7BQ1qU2lQQytdXA==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2580,10 +2580,10 @@ snapshots:
 
   '@aws-cdk/cloud-assembly-schema@54.2.0': {}
 
-  '@aws-cdk/integ-runner@2.200.1':
+  '@aws-cdk/integ-runner@2.200.2':
     dependencies:
       '@aws-cdk/aws-service-spec': 0.1.185
-      aws-cdk: 2.1128.0
+      aws-cdk: 2.1128.1
 
   '@aws-cdk/integ-tests-alpha@2.122.0-alpha.0(aws-cdk-lib@2.260.0(constructs@10.6.0))(constructs@10.6.0)':
     dependencies:
@@ -3492,7 +3492,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 54.2.0
       constructs: 10.6.0
 
-  aws-cdk@2.1128.0: {}
+  aws-cdk@2.1128.1: {}
 
   babel-jest@30.4.1(@babel/core@7.28.3):
     dependencies:
