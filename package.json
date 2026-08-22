@@ -45,7 +45,7 @@
     "aws-cdk": "2.1136.0",
     "aws-cdk-lib": "2.265.0",
     "constructs": "^10.8.0",
-    "eslint": "^8.57.1",
+    "eslint": "^10.9.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "eslint-plugin-import": "^2.32.0",
