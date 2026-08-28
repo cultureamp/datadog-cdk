@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.5/.schema/devbox.schema.json",
+  "packages": {
+    "nodejs": "22.22.2"
+  },
+  "env": {
+    "DEVBOX_COREPACK_ENABLED": "1"
+  },
+  "shell": {
+    "scripts": {
+      "setup": ["pnpm install --frozen-lockfile"]
+    }
+  }
+}
