@@ -7,4 +7,3 @@ cdk.context.json
 cdk.out
 */**/*.js
 dist
-.devbox
