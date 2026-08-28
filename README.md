@@ -30,14 +30,6 @@ Contributions welcome for:
 Contributions are welcome: be sure to open an issue though before embarking on
 any large-scale endeavours!
 
-### Local development
-
-Ensure devbox is set up as per [Local Dev Environments (LDEs) — Getting Started](https://cultureamp.atlassian.net/wiki/spaces/DE/pages/3342434338/Devbox+setup).
-
-Install dependencies:
-
-    devbox run setup
-
 ## Publishing
 
 Publishing requires a GH token in the environment named `GITHUB_REGISTRY_PUBLISH_TOKEN`. It requires `repo` and `write:packages` permissions.
