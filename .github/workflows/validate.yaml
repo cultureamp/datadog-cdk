@@ -20,15 +20,13 @@ jobs:
       fail-fast: false
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
-      - uses: pnpm/action-setup@v2
-        with:
-          version: "10.33.0"
+      - uses: pnpm/action-setup@v6
 
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
-          node-version: "22.22.2"
+          node-version-file: ".tool-versions"
           cache: "pnpm"
           cache-dependency-path: "pnpm-lock.yaml"
           registry-url: 'https://npm.pkg.github.com'
