@@ -35,15 +35,15 @@
   "author": "Culture Amp SRE",
   "license": "MIT",
   "devDependencies": {
-    "@aws-cdk/integ-runner": "2.205.1",
+    "@aws-cdk/integ-runner": "2.205.3",
     "@aws-cdk/integ-tests-alpha": "2.122.0-alpha.0",
     "@tsconfig/node16": "^16.1.9",
     "@types/jest": "^30.0.0",
-    "@types/node": "22.20.1",
-    "@typescript-eslint/eslint-plugin": "^8.69.0",
-    "@typescript-eslint/parser": "^8.69.0",
-    "aws-cdk": "2.1140.0",
-    "aws-cdk-lib": "2.268.0",
+    "@types/node": "22.20.3",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "aws-cdk": "2.1142.0",
+    "aws-cdk-lib": "2.270.0",
     "constructs": "^10.8.1",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
@@ -53,14 +53,14 @@
     "eslint-plugin-no-only-tests": "^3.4.0",
     "eslint-plugin-promise": "^7.3.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
-    "jest": "^30.5.1",
-    "prettier": "^3.9.6",
+    "jest": "^30.5.2",
+    "prettier": "^3.9.8",
     "ts-jest": "^29.4.12",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.268.0",
+    "aws-cdk-lib": "^2.270.0",
     "constructs": "^10.8.1"
   }
 }
