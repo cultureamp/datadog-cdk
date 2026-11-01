@@ -30,3 +30,11 @@ new CfnSlo(stack, "TestSlo", {
 })
 
 new test.IntegTest(app, "Integ", { testCases: [stack] })
+
+// The integ-tests DeployAssert stack has no resources because this test makes
+// no assertions; acknowledge the built-in CloudFormation validation rule that
+// rejects empty stacks.
+cdk.Validations.of(app).acknowledge({
+  id: "CloudFormation-Validate::F0001",
+  reason: "DeployAssert stack is intentionally empty (no assertions)",
+})
