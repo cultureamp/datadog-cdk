@@ -1,0 +1,5 @@
+# pnpm 11+ fails the install on unreviewed dependency build scripts.
+# These were skipped under pnpm 10 too, so keep them denied.
+allowBuilds:
+  '@parcel/watcher': false
+  unrs-resolver: false
